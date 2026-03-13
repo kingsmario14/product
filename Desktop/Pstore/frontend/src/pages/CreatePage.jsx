@@ -62,7 +62,7 @@ const CreatePage = () => {
                 onChange={(e) =>setNewProduct({ ...newProduct, price: e.target.value })}
             />
             <Input
-                placeholder='Product Name'
+                placeholder='Product Image'
                 name='name'
                 value={newProduct.image}
                 onChange={(e) =>setNewProduct({ ...newProduct, image: e.target.value })}
